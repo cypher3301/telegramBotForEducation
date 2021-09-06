@@ -10,17 +10,17 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
-@EqualsAndHashCode(callSuper = true)
 @Component
-@Data
 public class EducationPairsHelperTelegramBot extends TelegramLongPollingBot {
 
 
 
-    @Value("bot.name")
+    @Value("${bot.name}")
     private String botName;
-    @Value("bot.token")
+    @Value("${bot.token}")
     private String botToken;
+
+
 
     @Override
     public String getBotUsername() {
