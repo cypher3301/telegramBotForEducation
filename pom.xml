@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.edication.telegram.bot</groupId>
     <artifactId>telegramBotEducationLecture</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.2.0-SNAPSHOT</version>
     <name>telegramBotEducationLecture</name>
     <description>telegramBotEducationLecture</description>
     <properties>
